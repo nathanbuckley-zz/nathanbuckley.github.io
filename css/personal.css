@@ -5,6 +5,8 @@
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #494949;
   overflow-x: hidden; }
 
 p {
@@ -18,7 +20,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #18BC9C;
+  color: #282828;
   outline: none; }
 
 h1,
@@ -42,7 +44,7 @@ section {
 
 section.success {
   color: white;
-  background: #18BC9C; }
+  background: #353535; }
 
 @media (max-width: 767px) {
   section {
@@ -130,7 +132,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: #E0E0E0;
-  background: #18BC9C url(https://apod.nasa.gov/apod/image/1605/M42_HaGB_Spitzer_PortraitR.jpg)100% 100% no-repeat;}
+  background: #282828; }
   header.masthead .intro-text .name {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
