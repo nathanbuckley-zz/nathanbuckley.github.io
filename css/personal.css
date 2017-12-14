@@ -131,6 +131,9 @@ section.success {
  .me{
   z-index : 999;
 }
+#particle{
+  position: absolute;
+}
 
 header.masthead {
   padding-top: 200px;
