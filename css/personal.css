@@ -3,11 +3,13 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
- canvas {
-  display:block;
-  position: fixed;
+ #particle canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
+
  body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
@@ -143,10 +145,12 @@ header.masthead {
     font-size: 2em;
     font-weight: 700;
     display: block;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    z-index : 999; }
   header.masthead .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300; }
+    font-weight: 300;
+    z-index : 999; }
 
 @media (min-width: 768px) {
   header.masthead {
