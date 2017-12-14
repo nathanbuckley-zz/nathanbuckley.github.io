@@ -3,7 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
-body {
+ canvas {
+  display:block;
+  position: fixed;
+  z-index: -1;
+}
+ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
   background-color: #494949;
