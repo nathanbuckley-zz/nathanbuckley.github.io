@@ -1,5 +1,5 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particle', 'particles.json', function() {
+particlesJS.load('particle', './particles.json', function() {
   console.log('Particles config loaded');
 });
 
