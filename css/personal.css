@@ -132,7 +132,7 @@ section.success {
   z-index : 999;
 }
 #particle{
-  position: absolute;
+  position: fixed;
 }
 
 header.masthead {
