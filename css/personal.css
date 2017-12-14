@@ -128,6 +128,10 @@ section.success {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
+ .me{
+  z-index : 999;
+}
+
 header.masthead {
   padding-top: 200px;
   padding-bottom: 50px;
