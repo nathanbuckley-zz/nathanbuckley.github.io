@@ -141,12 +141,10 @@ header.masthead {
     font-size: 2em;
     font-weight: 700;
     display: block;
-    text-transform: uppercase;
-    z-index : 999; }
+    text-transform: uppercase; }
   header.masthead .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
-    z-index : 999; }
+    font-weight: 300; }
 
 @media (min-width: 768px) {
   header.masthead {
