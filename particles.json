@@ -18,11 +18,6 @@
       },
       "polygon": {
         "nb_sides": 9
-      },
-      "image": {
-        "src": "",
-        "width": 100,
-        "height": 100
       }
     },
     "opacity": {
@@ -49,7 +44,7 @@
       "enable": true,
       "distance": 150,
       "color": "#ffffff",
-      "opacity": 0.49705773886831206,
+      "opacity": 0.50,
       "width": 1
     },
     "move": {
@@ -95,8 +90,8 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 50,
+        "duration": 0.3
       },
       "push": {
         "particles_nb": 4
