@@ -90,8 +90,8 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 30,
-        "duration": 0.3
+        "distance": 100,
+        "duration": 0.4
       },
       "push": {
         "particles_nb": 4
