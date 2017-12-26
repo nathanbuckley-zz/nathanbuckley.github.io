@@ -1,7 +1,6 @@
-/*!
- * Start Bootstrap - Freelancer v4.0.0-beta (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+/*
+ * CSS For nathanbuckley.github.io
+ * Started With the BootstrapFreelancer template (http://startbootstrap.com/template-overviews/freelancer)
  */
 
  body {
@@ -322,18 +321,6 @@ header.masthead {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
 
-footer {
-  color: white; }
-  footer h3 {
-    margin-bottom: 30px; }
-  footer .footer-above {
-    padding-top: 50px;
-    background-color: #2C3E50; }
-  footer .footer-col {
-    margin-bottom: 50px; }
-  footer .footer-below {
-    padding: 25px 0;
-    background-color: #2c3e50; }
 
 .btn-outline {
   font-size: 20px;
