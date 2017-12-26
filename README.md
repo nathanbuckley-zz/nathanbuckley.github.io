@@ -1,19 +1,22 @@
 # nathanbuckley.github.io
 
+> A simple one pager to showcase some projects and a few bits about myself.
 
 
-Background-Colours (In Order)
+
+
+### REF
+
+Colours
 ------
-#282828
-#353535
-#494949
+Background | Highlight
+---------- | ----------
+#282828    | #E0E0E0
+#353535    | #18BC9C
+#494949    | #424242
 
-Alt-Colours
-------
-#E0E0E0
-#18BC9C
-#424242
 
-Alt-Image Sizes
+Image Sizes
 ------
-Projects Main Images 900x650
+Projects Main Images: 900x650 - png
+Header Image: 256x249 - png
