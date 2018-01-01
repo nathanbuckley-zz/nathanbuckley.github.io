@@ -5,7 +5,6 @@
 
 
 
-### REF
 
 Colours
 ------
@@ -18,5 +17,5 @@ Background | Highlight
 
 Image Sizes
 ------
-Projects Main Images: 900x650 - png
-Header Image: 256x249 - png
++ Projects Main Images: 900x650 - png
++ Header Image: 256x249 - png
