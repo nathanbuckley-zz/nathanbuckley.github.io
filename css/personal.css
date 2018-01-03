@@ -217,6 +217,7 @@ header.masthead {
     margin: 0 0 30px; } }
 
 .portfolio-modal .modal-dialog {
+  color: black;
   max-width: 100%;
   min-height: 100%;
   margin: 0;
