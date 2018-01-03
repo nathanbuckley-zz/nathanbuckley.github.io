@@ -3,9 +3,6 @@
 > A simple one pager to showcase some projects and a few bits about myself.
 
 
-
-
-
 Colours
 ------
 Background | Highlight

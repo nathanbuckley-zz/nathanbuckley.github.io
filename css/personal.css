@@ -152,9 +152,9 @@ header.masthead {
     font-weight: 300; }
   header.masthead .social .icon{
     z-index: 10;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
   header.masthead .social .icon a{
     color: #E0E0E0;
