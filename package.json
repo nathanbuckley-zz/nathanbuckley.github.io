@@ -1,0 +1,33 @@
+{
+  "name": "nathanbuckley.github.io",
+  "version": "2.0.0",
+  "description": "My personal github Page",
+  "main": "",
+  "scripts": {
+    "info": "echo 'Build for nathanbuckley.github.io'",
+    "lintall": "echo '=> linting all the JS' && jshint js/*.js",
+    "mincss": "echo '=> minify personal.css' && cleancss css/personal.css -o css/personal.min.css",
+    "minjs": "echo '=> minify personal.js' && uglifyjs js/personal.js -o js/personal.min.js",
+    "minall": "echo '=> Minify All the things' && npm run mincss -s && npm run minjs -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbuckley/nathanbuckley.github.io.git"
+  },
+  "keywords": [
+    "github.io",
+    "Personal",
+    "nathanbuckley"
+  ],
+  "author": "nathanbuckley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanbuckley/nathanbuckley.github.io/issues"
+  },
+  "homepage": "nathanbuckley.github.io",
+  "devDependencies": {
+    "clean-css-cli": "^4.1.10",
+    "jshint": "^2.9.5",
+    "uglify-js": "^3.3.5"
+  }
+}
