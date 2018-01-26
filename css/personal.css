@@ -128,11 +128,10 @@ section.success {
       font-size: 1.5em; } }
 
 #particle canvas{
-    position: absolute;
+    position: fixed;
     display: block;
     top: 0;
     left: 0;
-    bottom: 0;
     z-index: 0;
   }
 
