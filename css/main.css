@@ -16,6 +16,11 @@ a:hover {
     color: #849974;
 }
 
+#p {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 5; 
+}
+
 .nav {
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
