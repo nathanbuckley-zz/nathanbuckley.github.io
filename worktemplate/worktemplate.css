@@ -1,0 +1,35 @@
+body { 
+    margin: 0;
+    background-color: #36384c;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: #849974;
+}
+
+.workblock {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.workblock .worktitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workblock p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

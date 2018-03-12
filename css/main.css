@@ -16,6 +16,14 @@ a:hover {
     color: #849974;
 }
 
+hr {
+    color: #849974;
+    width: 50%;
+    text-align: center;
+}
+
+/* ======= Tag Line ======== */
+
 .nav {
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
@@ -34,6 +42,8 @@ a:hover {
     font-size: 25px;
     font-weight: bold;
 }
+
+/* ======= Header ======== */
 
 .headpic {
     grid-column: 2 / span 1;
@@ -69,8 +79,40 @@ a:hover {
     padding-left: 15px;
 }
 
+/* ======= Work Blocks ======== */
+
 .work {
     grid-column: 1 / span 3;
     grid-row: 5/ span 1;
-    background-color: purple;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+#worktitle{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+    text-align: center;
+}
+
+.workblock {
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.workblock .worktitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workblock p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px
 }
