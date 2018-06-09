@@ -11,6 +11,7 @@
         <title>Hi, Im Nathan</title>
 
         <link href="css/main.min.css" rel="stylesheet">
+        <link href="css/lib/tingle.min.css" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,thin" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -18,9 +19,15 @@
     </head>
 
     <body>
-
+        
         <div class="nav">
-            <div id="tag"><a href="">respect the defect</a></div>
+            <a id="tag" href="">respect the defect</a>
+
+            <div id="navlinks">
+                <a id="galNavbtn">Gallery</a>
+                <a id="projNavbtn">Projects</a>
+                <a id="contNavbtn">Contact</a>
+            </div>
         </div>
 
         <div class="headpic">
@@ -36,9 +43,9 @@
                 <a href="https://www.instagram.com/nathanbuckley/" ><i class="fab fa-instagram fa-3x"></i></a>
         </div>
 
-        <div class="work">
+        <div class="work" id="proj">
 
-            <div id="worktitle">
+            <div class="titles">
                 <hr>
                 <h2>Projects</h2>
             </div>
@@ -69,42 +76,57 @@
                 </div>
             </div>
 
-                    <!-- This site -->
-                    <div class="workblock">
-                        <h4 class="worktitle">My Personal page source</h4>
-                        <p>
-                            The source for this page can be found at the Github link
-                            below. Writen from scratch and constantly evolving. Grab 
-                            any snippits you like. ;)
-                        </p>
-                        <div class="worklinks">
-                            <a href="https://github.com/nathanbuckley/nodePktAnalyzer"><i class="fab fa-github fa-2x"></i></a>
-                            <a class="modalTrigger"><i class="fab fa-rebel fa-2x"></i></a>
-                        </div>
-                        <div class="modal">
-                                <div class="modal-content">
-                                    <span class="close-button">&times;</span>
-                                    <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-                                    <div class="coinhive-miner" 
-                                    	style="width: 380px; height: 330px"
-                                    	data-key="lfqDCwJCEAe8serc2gIJRH68D1bBdSWp"
-                                    	data-autostart="true"
-                                    	data-whitelabel="true"
-                                    	data-background="#ffffff"
-                                    	data-text="#613a43"
-                                    	data-action="#6d7973"
-                                    	data-graph="#555555"
-                                    	data-threads="4"
-                                    	data-throttle="0.5">
-                                    	<em>Loading...</em>
-                                    </div>
-                                </div>
+            <!-- This site -->
+            <div class="workblock">
+                <h4 class="worktitle">My Personal page source</h4>
+                <p>
+                    The source for this page can be found at the Github link
+                    below. Writen from scratch and constantly evolving. Grab 
+                    any snippits you like. ;)
+                </p>
+                <div class="worklinks">
+                    <a href="https://github.com/nathanbuckley/nodePktAnalyzer"><i class="fab fa-github fa-2x"></i></a>
+                    <a class="modalTrigger"><i class="fab fa-rebel fa-2x"></i></a>
+                </div>
+                <div class="modal">
+                        <div class="modal-content">
+                            <span class="close-button">&times;</span>
+                            <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+                            <div class="coinhive-miner" 
+                            	style="width: 380px; height: 330px"
+                            	data-key="lfqDCwJCEAe8serc2gIJRH68D1bBdSWp"
+                            	data-autostart="true"
+                            	data-whitelabel="true"
+                            	data-background="#ffffff"
+                            	data-text="#613a43"
+                            	data-action="#6d7973"
+                            	data-graph="#555555"
+                            	data-threads="4"
+                            	data-throttle="0.5">
+                            	<em>Loading...</em>
                             </div>
-                            
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+        <div class="gallery" id="gal">
+
+                <div class="titles">
+                        <hr>
+                        <h2>Gallery</h2>
+                    </div>
+        </div>
+
+        <div class="contact" id="cont">
+                <div class="titles">
+                        <hr>
+                        <h2>Contact</h2>
                     </div>
         </div>
 
         <script src="js/main.min.js"></script>
+        <script src="js/lib/tingle.min.js"></script>
     </body>
 
 </html>

@@ -29,5 +29,8 @@
     "clean-css-cli": "^4.1.11",
     "jshint": "^2.9.5",
     "uglify-js": "^3.3.13"
+  },
+  "dependencies": {
+    "tingle.js": "^0.13.2"
   }
 }

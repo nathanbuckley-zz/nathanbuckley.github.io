@@ -1,9 +1,11 @@
+/* ======= Globals ======== */
+
 body { 
     margin: 0;
     background-color: #36384c;
     display: grid;
     grid-template-columns:auto 700px auto;
-    grid-template-rows:100px 250px 120px 50px auto;
+    grid-template-rows:100px 250px 120px 50px auto auto auto;
 }
 
 a {
@@ -22,25 +24,37 @@ hr {
     text-align: center;
 }
 
-/* ======= Tag Line ======== */
+.titles {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* ======= Nav & Tag Line ======== */
 
 .nav {
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
 }
 
+#navlinks {
+    line-height: 100px;
+    float: right;
+}
+
+#navlinks a {
+    margin-right: 20px;
+}
+
 #tag {
-    height: 80px;
-    margin-left: 30px;
+    height: 100px;
     text-transform: uppercase;
     text-align:left;
     line-height: 100px;
-
-}
-
-#tag a {
     font-size: 25px;
     font-weight: bold;
+    margin-left: 20px;
 }
 
 /* ======= Header ======== */
@@ -85,14 +99,7 @@ hr {
     grid-column: 1 / span 3;
     grid-row: 5/ span 1;
     margin: 50px;
-    margin-top: 40px;
-}
-
-#worktitle{
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: center;
+    margin-top: 150px;
 }
 
 .workblock {
@@ -120,6 +127,22 @@ hr {
 .worklinks a {
     margin-right: 2.5px;
     margin-left: 2.5px
+}
+
+/* ========= Gallery Styles ========== */
+
+.gallery {
+    grid-column: 1 / span 3;
+    grid-row: 6 / span 1;
+    height: 400px;
+}
+
+/* ========= Contact Styles ========== */
+
+.contact {
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 1;
+    height: 400px;
 }
 
 /* ========= Modal Styles ========== */
