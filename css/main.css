@@ -5,7 +5,7 @@ body {
     background-color: #36384c;
     display: grid;
     grid-template-columns:auto 700px auto;
-    grid-template-rows:100px 250px 120px 50px auto auto auto;
+    grid-template-rows:150px 250px 120px 50px auto auto auto;
 }
 
 a {
@@ -45,14 +45,17 @@ hr {
 
 #navlinks a {
     margin-right: 20px;
+    line-height: 150px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #tag {
     height: 100px;
     text-transform: uppercase;
     text-align:left;
-    line-height: 100px;
-    font-size: 25px;
+    line-height: 150px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 20px;
 }
