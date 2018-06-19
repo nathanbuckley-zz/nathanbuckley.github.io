@@ -44,8 +44,10 @@ window.onscroll = function(){
 
 //Scroll to top if clicked
 function scrolltotop (){
-    document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
-    document.body.scrollTop = 0; // Safari
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }
 
 
