@@ -188,6 +188,21 @@ hr {
     font-size: 20px;
 }
 
+/* ========= to top button Styles ========== */
+#topbtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /* ========= Modal Styles ========== */
 
 .modal {

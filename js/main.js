@@ -1,5 +1,5 @@
 
-// Scrolling
+// ******** Nav Scrolling ********
 var gallery = document.getElementById("galNavbtn");
 var projects = document.getElementById("projNavbtn");
 var contact = document.getElementById("contNavbtn");
@@ -31,9 +31,25 @@ contact.onclick = function(){
     });
 }
 
+// ******* Scroll to top button ********
+
+//show/Hide button once scrolling beyond Nav
+window.onscroll = function(){
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+        document.getElementById("topbtn").style.display = "block";
+    } else {
+        document.getElementById("topbtn").style.display = "none";
+    }
+}
+
+//Scroll to top if clicked
+function scrolltotop (){
+    document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
+    document.body.scrollTop = 0; // Safari
+}
 
 
-//Temp Secret Modal
+// ******** Temp Secret Modal ********
 
 var modal = document.querySelector(".modal");
 var trigger = document.querySelector(".modalTrigger");
