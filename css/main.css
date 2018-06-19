@@ -48,6 +48,7 @@ hr {
     line-height: 150px;
     font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #tag {
@@ -197,7 +198,6 @@ hr {
     z-index: 99;
     border: none;
     outline: none;
-    border-radius: 5px;
     color: white;
     background-color: transparent;
     cursor: pointer;
