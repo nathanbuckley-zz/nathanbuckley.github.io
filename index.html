@@ -37,16 +37,14 @@
         <div class="headname">Nathan Buckley</div>
 
         <div class="headlinks">
-                <a href="https://github.com/nathanbuckley" ><i class="fab fa-github fa-3x"></i></a>
-                <a href="" ><i class="far fa-envelope fa-3x"></i></a>
-                <a href="https://www.youtube.com/channel/UCLTJ3gfX1f5yHCtVuEXbVIQ/videos" ><i class="fab fa-youtube fa-3x"></i></a>
-                <a href="https://www.instagram.com/nathanbuckley/" ><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://github.com/nathanbuckley" ><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://www.youtube.com/channel/UCLTJ3gfX1f5yHCtVuEXbVIQ/videos" ><i class="fab fa-youtube fa-3x"></i></a>
+            <a href="https://www.instagram.com/nathanbuckley/" ><i class="fab fa-instagram fa-3x"></i></a>
         </div>
 
         <div class="work" id="proj">
 
             <div class="titles">
-                <hr>
                 <h2>Projects</h2>
             </div>
 
@@ -112,17 +110,25 @@
         </div>
         <div class="gallery" id="gal">
 
-                <div class="titles">
-                        <hr>
-                        <h2>Gallery</h2>
-                    </div>
+            <div class="titles">
+                <h2>Gallery</h2>
+            </div>
         </div>
 
         <div class="contact" id="cont">
-                <div class="titles">
-                        <hr>
-                        <h2>Contact</h2>
-                    </div>
+            <div class="titles">
+                <h2>Contact</h2>
+            </div>
+
+                <form id="form" action="https://formspree.io/nth.buckley@gmail.com" method="POST">
+                    <input type="text" id="fname" name="name" placeholder="Name"/>    
+                    <input type="email" id="femail" name="email" placeholder="Email"/>
+                    <textarea id="fmsg" name="message" placeholder="Message" style="height:200px"></textarea>
+                    <input type="hidden" name="_subject" value="Someone Wants to talk!!!"/>
+                    <input type="hidden" name="_next" value="" />
+                    <input type="text" name="_gotcha" style="display:none"/>
+                    <div id=fsub><input type="submit" value="Submit"></div>
+                </form>
         </div>
 
         <script src="js/main.min.js"></script>

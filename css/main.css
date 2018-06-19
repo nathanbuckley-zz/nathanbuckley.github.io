@@ -145,7 +145,44 @@ hr {
 .contact {
     grid-column: 1 / span 3;
     grid-row: 7 / span 1;
-    height: 400px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.99) 100%), url('../img/lifegoal.png') no-repeat;
+    background-size: cover;
+    background-color: #36384c;
+}
+
+#form {
+    margin-top: 35px; 
+    text-align: center;
+}
+
+#form input[type="text"],input[type="email"], textarea {
+    width: 50%; 
+    margin-bottom: 35px;
+    padding:20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+#form input::placeholder,textarea::placeholder {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#form input[type=submit] {
+    width:auto;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 /* ========= Modal Styles ========== */
