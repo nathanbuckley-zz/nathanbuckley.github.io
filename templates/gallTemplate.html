@@ -8,8 +8,7 @@
     
         <title>Gallery Item Template</title>
     
-        <link href="css/main.min.css" rel="stylesheet">
-        <link href="css/lib/tingle.min.css" rel="stylesheet">
+        <link href="../css/lib/tingle.min.css" rel="stylesheet">
     
         <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,thin" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -23,9 +22,9 @@
                 <h2>Gallery</h2>
 
                 <div id="galblock">
-                    <div id="galblockimg">
-                        <a href=""><img src="http://via.placeholder.com/250x150"></a>
-                    </div>
+                    <button id="galblockimg" onclick="opengaltempmodal()">
+                        <img src="http://via.placeholder.com/250x150">
+                    </button>
                             <h4 class="galblocktitle">Gallery Template</h4>
                             <p>
                                 (WORK IN PROGRESS)<br>
@@ -38,5 +37,9 @@
 
             </div>
         </div>
+
+        <script src="../js/lib/tingle.min.js"></script>
+        <script src="gallTemplate.js"></script>
+
     </body>
 </html>

@@ -42,8 +42,8 @@ window.onscroll = function(){
     }
 }
 
-//Scroll to top if clicked
-function scrolltotop (){
+//Scroll to top onclick function
+function scrolltotop() {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
