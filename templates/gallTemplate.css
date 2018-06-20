@@ -28,7 +28,12 @@ hr {
 
 /* ======= Gallery Blocks ======== */
 
-#galblock {
-    width: 20%;
+.galblock {
+    width: 25%;
     margin: 20px;
+}
+
+.galblockimg {
+    padding: 0;
+    border: none;
 }
