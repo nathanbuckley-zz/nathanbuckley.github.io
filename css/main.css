@@ -31,34 +31,64 @@ hr {
     text-align: center;
 }
 
+/* isometric Button */
+.isobtn {
+    text-align: unset;
+    border: none;
+    color: #fff;
+    background: #cb4e4e;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 0px 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 6px #ab3c3c;
+  }
+
+    
+  .isobtn:hover {
+    box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+  }
+    
+  .isobtn:active {
+    box-shadow: 0 0 #ab3c3c;
+    top: 6px;
+  }
+
 /* ======= Nav & Tag Line ======== */
 
-.nav {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 1;
-}
-
 #navlinks {
-    line-height: 100px;
-    float: right;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+    justify-self: end;
+    align-self: center;
+    z-index: 900;
+    margin-right: 5%; 
 }
 
-#navlinks a {
-    margin-right: 20px;
-    line-height: 150px;
+#navlinks button {
     font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
+    letter-spacing: 2px;
 }
 
 #tag {
+    color: #36384c;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
     height: 100px;
     text-transform: uppercase;
     text-align:left;
     line-height: 150px;
     font-size: 30px;
     font-weight: bold;
+    letter-spacing: 2px;
     margin-left: 20px;
+}
+
+#tag:hover {
+    color: #849974;
 }
 
 /* ======= Header ======== */
@@ -81,6 +111,7 @@ hr {
     line-height: 120px;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
+    letter-spacing: 2px;
     font-weight: bold;
     color: white;
 }
