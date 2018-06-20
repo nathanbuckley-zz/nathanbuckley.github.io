@@ -27,6 +27,8 @@ hr {
 .titles {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
     color: white;
     text-align: center;
 }
