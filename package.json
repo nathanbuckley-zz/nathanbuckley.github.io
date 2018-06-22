@@ -1,16 +1,16 @@
 {
-  "name": "nathanBuckleyGithubPage",
+  "name": "nathanbuckley's github page",
   "version": "0.9.0",
   "description": "The Github Page of nathanbuckley",
   "main": "",
   "scripts": {
     "test": "",
     "info": "echo 'INFO:\n Repo: https://github.com/nathanbuckley/nathanbuckley.github.io#readme\n author: nathanbuckley\n license: ISC'",
-    "initialbuild": "",
+    "initialbuild": " ",
     "lintalljs": "echo '=====> linting all the JS <======\n' && jshint js/*.js",
     "minmaincss": "echo '=====> minify main.css <======\n' && cleancss css/main.css -o css/main.min.css",
     "minmodalcss": "echo '=====> minify modal.css <======\n'&& cleancss css/modal.css -o css/modal.min.css",
-    "minmainjs": "echo '=====> minify main.js <======\n' && uglifyjs js/main.js -o js/main.min.js --timings ",
+    "minmainjs": "echo '=====> minify main.js <======\n' && uglifyjs js/main.js -o js/main.min.js --verbose --timings",
     "build": "echo '~~~ =====> Running Build Sequance <====== ~~~\n' && npm run minmaincss -s && npm run minmodalcss -s && npm run minmainjs -s"
   },
   "repository": {
