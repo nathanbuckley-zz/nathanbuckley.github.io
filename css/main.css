@@ -19,13 +19,7 @@ button {
 }
 
 a:hover {
-    color: #849974;
-}
-
-hr {
-    color: #849974;
-    width: 50%;
-    text-align: center;
+    color: #cb4e4e;
 }
 
 .titles {
@@ -98,7 +92,7 @@ hr {
 }
 
 #tag:hover {
-    color: #849974;
+    color: #cb4e4e;
 }
 
 /* ======= Header ======== */
@@ -256,7 +250,7 @@ hr {
 }
 
 /* ========= to top button Styles ========== */
-#topbtn{
+#topbtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -267,4 +261,8 @@ hr {
     color: white;
     background-color: transparent;
     cursor: pointer;
+}
+
+#topbtn:hover {
+    color: #cb4e4e;
 }

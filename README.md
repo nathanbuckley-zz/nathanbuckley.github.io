@@ -5,7 +5,7 @@
 Testing/Running locally
 ------------------------
 
-...`coming soon`
+`...coming soon`
 
 Pallet
 ------
