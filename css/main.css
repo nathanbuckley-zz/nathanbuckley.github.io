@@ -12,6 +12,10 @@ a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
 }
 
 a:hover {
@@ -37,15 +41,17 @@ hr {
 .isobtn {
     text-align: unset;
     border: none;
+    outline: none;
     color: #fff;
     background: #cb4e4e;
     border-radius: 5px;
     cursor: pointer;
     padding: 15px 20px;
     margin: 0px 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
     box-shadow: 0 6px #ab3c3c;
+    display: inline-block;
+    position: relative;
+    transition: none;
   }
 
     
@@ -71,8 +77,10 @@ hr {
 }
 
 #navlinks button {
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 #tag {
@@ -130,13 +138,46 @@ hr {
     padding-left: 15px;
 }
 
+
+/* ========= Gallery Styles ========== */
+
+.gallery {
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 1;
+    margin: 50px;
+    margin-top: 150px;
+}
+
+.galblock {
+    width: 340px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.galblock .galblockimg {
+    padding: 0;
+    border: none;
+}
+.galblock .galblocktitle{
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+.galblock .galblocksub{
+    font-size: 18px;
+}
+
+.galblock .galblockblurb{
+    font-size: 13px;
+}
+
 /* ======= Work Blocks ======== */
 
 .work {
     grid-column: 1 / span 3;
-    grid-row: 5/ span 1;
+    grid-row: 6/ span 1;
     margin: 50px;
-    margin-top: 150px;
 }
 
 .workblock {
@@ -164,14 +205,6 @@ hr {
 .worklinks a {
     margin-right: 2.5px;
     margin-left: 2.5px
-}
-
-/* ========= Gallery Styles ========== */
-
-.gallery {
-    grid-column: 1 / span 3;
-    grid-row: 6 / span 1;
-    height: 400px;
 }
 
 /* ========= Contact Styles ========== */
@@ -234,47 +267,4 @@ hr {
     color: white;
     background-color: transparent;
     cursor: pointer;
-}
-
-/* ========= Modal Styles ========== */
-
-.modal {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    visibility: hidden;
-    transform: scale(1.1);
-    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
-}
-.modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 1rem 1.5rem;
-    width: 24rem;
-    border-radius: 0.5rem;
-}
-.close-button {
-    float: right;
-    width: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    background-color: lightgray;
-}
-.close-button:hover {
-    background-color: darkgray;
-}
-.show-modal {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1.0);
-    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }

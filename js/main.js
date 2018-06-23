@@ -50,6 +50,24 @@ function scrolltotop() {
     });
 }
 
+// ******** Modal footer close button random choice generator *********
+
+function randomBtnChoice(){
+    
+    var footerBtnChoices = ['Finished',
+                            'Done',
+                            'Complete',
+                            'Terminate',
+                            'Abolish',
+                            'Abort',
+                            'Conclude',
+                            'Dismiss',
+                            'Wrap up', 
+                            'Flawless Victory'];
+
+    var rbc = footerBtnChoices[Math.floor(Math.random()*footerBtnChoices.length)];
+    return rbc;
+}
 
 // ******** Temp Secret Modal ********
 

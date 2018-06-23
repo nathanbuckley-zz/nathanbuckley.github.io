@@ -43,5 +43,5 @@ galtempmodal.addFooterBtn(randomBtnChoice(), 'tingle-btn isobtn', function() {
 var galblockimgdom = document.getElementById('galtempbtn');
 
 function opengaltempmodal() {
-    galtempmodal.open();
+    galtempmodal.open();   
 }
