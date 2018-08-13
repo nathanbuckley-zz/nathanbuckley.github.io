@@ -33,6 +33,5 @@ bizcardmodal.addFooterBtn(randomBtnChoice(), 'tingle-btn isobtn', function() {
 // Open Modal
 
 function openbizcardmodal() {
-    bizcardmodal.open();
-    
+    bizcardmodal.open(); 
 }
