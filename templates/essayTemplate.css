@@ -1,0 +1,54 @@
+body { 
+    margin: 0;
+    background-color: #36384c;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: #849974;
+}
+
+hr {
+    color: #849974;
+    width: 50%;
+    text-align: center;
+}
+
+.titles {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* ======= Gallery Blocks ======== */
+
+.essayblock {
+    width: 250px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.essayblockimg {
+    padding: 0;
+    border: none;
+}
+
+.essaytitles {
+    margin-bottom: 5px;
+}
+
+.essayblurb {
+    font-size: 13px;
+    margin: 0px;
+}
+
+

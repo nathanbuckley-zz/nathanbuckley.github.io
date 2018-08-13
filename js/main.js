@@ -1,8 +1,18 @@
 
 // ******** Nav Scrolling ********
+var essay = document.getElementById("essayNavbtn");
 var gallery = document.getElementById("galNavbtn");
 var projects = document.getElementById("projNavbtn");
 var contact = document.getElementById("contNavbtn");
+
+essay.onclick = function(){
+    var essdiv = document.getElementById("ess");
+    var essdivposition = essdiv.offsetTop;
+    window.scrollTo({
+        top: essdivposition,
+        behavior: "smooth"
+    });
+}
 
 gallery.onclick = function(){
     var galdiv = document.getElementById("gal");
